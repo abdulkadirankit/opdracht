@@ -136,6 +136,14 @@ a.nav-link {
     margin-top: 0.5rem;
 }
 
+.youtube-img {
+    width: 70px;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 0.5rem;
+}
+
+
 @media screen and (max-width: 1600px) {
     .header-box {
         grid-template-columns: 250px 250px 250px 250px;
