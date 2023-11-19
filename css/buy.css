@@ -8,13 +8,6 @@ body {
   background-image: linear-gradient(#040404c7, whitesmoke);
 }
 
-h1 {
-  color: #fff;
-  font-size: 3rem;
-  padding: 1rem 1.5rem;
-  margin: 0rem 1.5rem;
-}
-
 li {
   list-style: none;
   margin: 0.7rem 0 0.7rem 1.5rem;
@@ -32,7 +25,8 @@ li a:hover {
   color: #000;
 }
 
-/* header */
+/* begin van header */
+
 .header-box {
   background-image: url(/assets/bg.png);
   background-color: #c8a5a578;
@@ -58,22 +52,10 @@ a.nav-link {
   transform: scale(1.1);
 }
 
-.header-title-box {
-  background-image: url(/assets/mercedes-front.png);
-  background-size: 100% 100%;
-  display: flex;
-  text-align: left;
-  vertical-align: bottom;
-  gap: 2rem;
-  margin-bottom: 1rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 50rem;
-  width: 100%;
-  position: relative;
-}
+/* eind van header */
 
-/*main*/
+/*begin van main*/
+
 .card-box {
   display: grid;
   grid-template-columns: 23% 23% 23% 23%;
@@ -116,7 +98,10 @@ a.nav-link {
   color: black !important;
 }
 
-/*footer*/
+/* eind van main */
+
+/* begin van footer*/
+
 .footer-box {
   background-color: rgba(157, 168, 152, 0.57);
   display: grid;
@@ -140,6 +125,8 @@ a.nav-link {
   border-radius: 7px;
   margin-top: 0.5rem;
 }
+
+/* eind van footer */
 
 @media screen and (max-width: 1600px) {
   .header-box {

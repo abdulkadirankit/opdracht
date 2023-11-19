@@ -32,7 +32,8 @@ li a:hover {
   color: #000;
 }
 
-/* header */
+/* begin van header */
+
 .header-box {
   background-image: url(/assets/bg.png);
   background-color: #c8a5a578;
@@ -86,7 +87,10 @@ a.nav-link {
   left: 1%;
 }
 
-/*main*/
+/* eind van header */
+
+/*begin van main*/
+
 .card-box {
   display: grid;
   grid-template-columns: 23% 23% 23% 23%;
@@ -129,7 +133,10 @@ a.nav-link {
   color: black !important;
 }
 
-/*footer*/
+/* eind van main */
+
+/*begin van footer*/
+
 .footer-box {
   background-color: rgba(157, 168, 152, 0.57);
   display: grid;
@@ -153,6 +160,8 @@ a.nav-link {
   border-radius: 7px;
   margin-top: 0.5rem;
 }
+
+/* eind van footer */
 
 @media screen and (max-width: 1600px) {
   .header-box {
