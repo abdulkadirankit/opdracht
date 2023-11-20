@@ -29,14 +29,14 @@ li a {
 }
 
 li a:hover {
-  color: #000;
+  color: #bcadae;
+  text-decoration: underline;
 }
 
 /* begin van header */
 
 .header-box {
-  background-image: url(../assets/bg.png);
-  background-color: #c8a5a578;
+  background-color: black;
   display: grid;
   grid-template-columns: 350px 350px 350px 350px;
   justify-content: center;
@@ -45,8 +45,7 @@ li a:hover {
 }
 
 a.nav-link {
-  color: brown;
-  background-color: whitesmoke;
+  color: #bcadae;
   border-radius: 19px;
   padding: 1rem 3rem;
 }
@@ -130,7 +129,8 @@ a.nav-link {
 }
 
 .active {
-  color: black !important;
+  color: #a71115 !important;
+  text-decoration: underline;
 }
 
 /* eind van main */

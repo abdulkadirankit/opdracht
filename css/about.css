@@ -5,10 +5,13 @@
 }
 
 body {
-  background-image: linear-gradient(#25050038, whitesmoke);
-  font-family: Arial, sans-serif;
+  background-color: black;
   margin: 0;
   padding: 0;
+}
+
+body main {
+  font-family: Arial, sans-serif;
 }
 
 li a {
@@ -20,14 +23,15 @@ li a {
 }
 
 li a:hover {
-  color: #000;
+  color: #a71115 !important;
+  text-decoration: underline;
 }
 
 /* begin van header */
 
 .header-box {
-  background-image: url(../assets/bg.png);
-  background-color: #c8a5a578;
+  background-color: black;
+  border-bottom: 1px solid red;
   display: grid;
   grid-template-columns: 350px 350px 350px 350px;
   justify-content: center;
@@ -36,8 +40,7 @@ li a:hover {
 }
 
 a.nav-link {
-  color: brown;
-  background-color: whitesmoke;
+  color: #bcadae;
   border-radius: 19px;
   padding: 1rem 3rem;
 }
@@ -75,13 +78,15 @@ a.nav-link {
 }
 
 .about-sub-section {
-  background-color: #b4d5d7c2;
+  background-color: transparent;
+  border: px solid #a71115;
+  color: white;
   border-radius: 19px;
   padding: 2rem;
 }
 
 .card-div1 {
-  color: black;
+  color: white;
   padding: 2% 6%;
   text-align: justify;
 }
@@ -96,15 +101,17 @@ a.nav-link {
 }
 
 .sec-col {
-  background-color: #b4d5d7c2;
+  background-color: transparent;
   max-width: 800px;
   padding: 0.5rem;
+  border: 2px solid #a71115;
   border-radius: 19px;
   font-size: 18px;
 }
 
 .active {
-  color: black !important;
+  color: #a71115 !important;
+  text-decoration: underline;
 }
 
 .section-h2 {
@@ -117,7 +124,9 @@ a.nav-link {
 /* begin van footer*/
 
 .footer-box {
-  background-color: rgba(157, 168, 152, 0.57);
+  background-color: whitesmoke;
+  border-top: 5px solid #a71115;
+  border-bottom: 5px solid #a71115;
   display: grid;
   grid-template-columns: 65% 4% 4% 7% 4%;
   justify-content: left;
