@@ -35,7 +35,7 @@ li a:hover {
 /* begin van header */
 
 .header-box {
-  background-image: url(/assets/bg.png);
+  background-image: url(../assets/bg.png);
   background-color: #c8a5a578;
   display: grid;
   grid-template-columns: 350px 350px 350px 350px;
@@ -65,7 +65,7 @@ a.nav-link {
 }
 
 .header-title-box {
-  background-image: url(/assets/mercedes-front.png);
+  background-image: url(../assets/mercedes-front.png);
   background-size: 100% 100%;
   display: flex;
   text-align: left;

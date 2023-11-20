@@ -26,7 +26,7 @@ li a:hover {
 /* begin van header */
 
 .header-box {
-  background-image: url(/assets/bg.png);
+  background-image: url(../assets/bg.png);
   background-color: #c8a5a578;
   display: grid;
   grid-template-columns: 350px 350px 350px 350px;
